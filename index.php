@@ -5,14 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Dinâmico</title>
+    <!--CSS Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--Estilo Customizado-->
+    <link rel="stylesheet" href="estilo/style.css">
+    <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/2d070ab700.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="center">
-            <div class="logo">Logomarca</div><!--logo-->
-            <nav class="desktop">
+            <div class="logo left">Logomarca</div><!--logo-->
+            <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -20,7 +28,7 @@
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
-            <nav class="mobile">
+            <nav class="mobile right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -28,12 +36,13 @@
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
+            <div class="clear"></div>
         </div><!--center-->
     </header>
     <section class="banner-principal">
         <div class="center">
             <form action="">
-                <h2>Qual o seu melhor e-mail?</h2>
+                <h2>Lorem Ipsum Dolor</h2>
                 <input type="email" name="email" required>
                 <input type="submit" name="acao" value="Cadastrar!">
             </form>
@@ -41,7 +50,7 @@
     </section><!--banner-principal-->
     <section class="descricao-autor">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2>Lorem Ipsum Dolor</h2>
                 <p>
                     Sit occaecat dolore sunt dolore occaecat aute aliqua Lorem. Fugiat ut dolore ex eu.
@@ -60,26 +69,27 @@
                     duis proident aliquip eiusmod sit nostrud.
                 </p>
             </div><!--w50-->
-            <div class="w50">
+            <div class="w50 left">
                 <img src="images/foto.jpg" alt="User image">
             </div>
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--descricao-autor-->
     <section class="especialidades">
         <div class="center">
             <h2 class="title">Esspecialidades</h2>
-            <div class="box-especialidades">
-                <h3>Icone 01</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa-brands fa-css3"></i></h3>
                 <h3>CSS3</h3>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
-            <div class="box-especialidades">
-                <h3>Icone 02</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa-brands fa-html5"></i></h3>
                 <h3>HTML5</h3>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
-            <div class="box-especialidades">
-                <h3>Icone 03</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa-brands fa-js"></i></h3>
                 <h3>JavaScript</h3>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
@@ -87,7 +97,7 @@
     </section><!--especialidades-->
     <section class="extras">
         <div class="center">
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class="title">Depoimentos</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
@@ -114,7 +124,7 @@
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
             </div>
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
@@ -124,6 +134,7 @@
                     </ul>
                 </div><!--servicos-->
             </div>
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--extras-->
     <footer>
