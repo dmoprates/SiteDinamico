@@ -10,4 +10,8 @@
     - Marcação HTML da página;
     - Inclusão do Estilo da página;
 
+- Features aprendidas
+    - Design responsivo;
+    - Estilização de páginas Web;
+
 Créditos para os templates à Danki Code

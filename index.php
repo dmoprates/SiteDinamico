@@ -86,21 +86,22 @@
     <section class="especialidades">
         <div class="center">
             <h2 class="title">Esspecialidades</h2>
-            <div class="w33 left box-especialidades">
+            <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-css3"></i></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
-            <div class="w33 left box-especialidades">
+            <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-html5"></i></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
-            <div class="w33 left box-especialidades">
+            <div class="w33 left box-especialidade">
                 <h3><i class="fa-brands fa-js"></i></h3>
-                <h3>JavaScript</h3>
+                <h4>JavaScript</h4>
                 <p>Lorem id nisi dolor aute excepteur ut pariatur commodo duis nostrud ut amet incididunt Lorem.</p>
             </div><!--box-especialidades-->
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--especialidades-->
     <section class="extras">

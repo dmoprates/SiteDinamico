@@ -19,6 +19,7 @@ img {
 
 .w33 {
     width: 33.3%;
+    padding: 0 10px;
 }
 
 .w50 {
@@ -74,20 +75,21 @@ nav.desktop a {
     text-decoration: none;
 }
 
-section.banner-principal{
+section.banner-principal {
     width: 100%;
     height: 600px;
     background-image: url('../images/bg-form.jpg');
     background-size: cover;
     position: relative;
 }
-.overlay{
-    position: absolute;    
+
+.overlay {
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(51,51,51,0.7);
+    background-color: rgba(51, 51, 51, 0.7);
     z-index: 1;
 }
 
@@ -109,7 +111,7 @@ section.banner-principal form h2 {
     text-align: center;
 }
 
-section.banner-principal form input[type=email]{
+section.banner-principal form input[type=email] {
     width: 100%;
     height: 60px;
     margin-top: 10px;
@@ -120,7 +122,7 @@ section.banner-principal form input[type=email]{
     border: 0;
 }
 
-section.banner-principal form input[type=submit]{
+section.banner-principal form input[type=submit] {
     width: 100%;
     height: 60px;
     margin-top: 10px;
@@ -133,7 +135,7 @@ section.banner-principal form input[type=submit]{
 }
 
 section.descricao-autor {
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 section.descricao-autor h2 {
@@ -144,26 +146,73 @@ section.descricao-autor h2 {
 
 section.descricao-autor p {
     font-size: 16px;
+    font-weight: 300;
     color: #444;
     margin-top: 10px;
 }
 
-@media screen and (max-width: 768px){
-    img{
+section.especialidades {
+    padding: 40px 0;
+    background: #e2e2e2;
+}
+
+section.especialidades h2.title{
+    font-size: 30px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+}
+
+.box-especialidade{
+    margin: 40px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.box-especialidade h3{
+    color:#404580;
+    font-size: 40px;
+}
+
+.box-especialidade h4{
+    color:#bababa;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.box-especialidade p {
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    img {
         float: none !important;
         display: block;
         margin: 0 auto;
         max-width: 500px;
     }
-    
+
     .w50 {
         padding: 20px;
         width: 100%;
     }
+
+    .w33 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .box-especialidade{
+        margin: 0;
+        padding: 40px 20px;
+    }
 }
 
-@media screen and (max-width: 768px){
-    nav.desktop{
+@media screen and (max-width: 768px) {
+    nav.desktop {
         display: none;
     }
 
@@ -181,7 +230,7 @@ section.descricao-autor p {
         width: 100%;
     }
 
-    nav.mobile li{
+    nav.mobile li {
         font-size: 17px;
         font-weight: 300;
         display: block;
@@ -196,7 +245,7 @@ section.descricao-autor p {
         text-decoration: none;
     }
 
-    .botao-menu-mobile{
+    .botao-menu-mobile {
         font-size: 20px;
         cursor: pointer;
         color: white;
