@@ -29,6 +29,9 @@
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -64,14 +67,18 @@
                     amet est ex deserunt magna est deserunt exercitation deserunt.
                 </p>
                 <p>
-                    Velit laboris irure id eiusmod labore commodo. Velit voluptate exercitation excepteur
-                    in cupidatat elit incididunt ad enim magna. Velit nostrud enim nisi eiusmod laboris.
-                    Exercitation excepteur adipisicing eiusmod cupidatat enim occaecat quis. Anim voluptate
-                    duis proident aliquip eiusmod sit nostrud.
+                    Sit occaecat dolore sunt dolore occaecat aute aliqua Lorem. Fugiat ut dolore ex eu.
+                    Ea do excepteur labore pariatur consequat reprehenderit proident id ex. Elit duis
+                    ut est in labore. Do duis enim ut aliquip adipisicing fugiat. Sit qui qui mollit
+                    et et deserunt aliqua sunt. Occaecat veniam labore aliqua adipisicing consequat anim
+                    ea laborum amet duis. Lorem irure magna ad incididunt pariatur duis in minim enim
+                    veniam incididunt aliquip. Ex fugiat magna culpa sunt incididunt consectetur pariatur
+                    laboris amet. Magna ex ullamco minim ut dolore amet culpa Lorem voluptate sint. Mollit
+                    amet est ex deserunt magna est deserunt exercitation deserunt.
                 </p>
             </div><!--w50-->
             <div class="w50 left">
-                <img src="images/foto.jpg" alt="User image">
+                <img class="right" src="images/foto.jpg" alt="User image">
             </div>
             <div class="clear"></div>
         </div><!--center-->

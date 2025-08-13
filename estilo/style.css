@@ -6,6 +6,11 @@
 }
 
 /*BOOT CSS*/
+img {
+    width: 100%;
+    max-width: 400px;
+}
+
 .center {
     max-width: 1280px;
     padding: 0 2%;
@@ -18,6 +23,7 @@
 
 .w50 {
     width: 50%;
+    padding: 0 10px;
 }
 
 .clear {
@@ -86,7 +92,7 @@ section.banner-principal{
 }
 
 section.banner-principal form {
-    width: 98%;
+    width: 93%;
     max-width: 600px;
     z-index: 2;
     position: absolute;
@@ -124,4 +130,75 @@ section.banner-principal form input[type=submit]{
     padding-left: 10px;
     cursor: pointer;
     border: 0;
+}
+
+section.descricao-autor {
+    padding: 30px 0;
+}
+
+section.descricao-autor h2 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #444;
+}
+
+section.descricao-autor p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    .w50 {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile {
+        display: block;
+    }
+
+    nav.mobile ul {
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.mobile li{
+        font-size: 17px;
+        font-weight: 300;
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        padding: 8px 0;
+    }
+
+    nav.mobile li a {
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+
+    .botao-menu-mobile{
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+    }
 }
