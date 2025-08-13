@@ -1,10 +1,13 @@
 # Projeto Site Dinâmico
 
-- Sistema criado no Curso "Desenvolvimento Web Completo - Danki Code"
+## Sistema criado no Curso "Desenvolvimento Web Completo - Danki Code"
+
 - Linguagens de programação estudadas:
-    - PHP;
-    - HTML;
-    - CSS;
-    - Banco de Dados
+    - HTML - Desenvolvimento do front-end;
+    - CSS - Estilização da página;
+
+- Etapas do Projeto
+    - Marcação HTML da página;
+    - Inclusão do Estilo da página;
 
 Créditos para os templates à Danki Code

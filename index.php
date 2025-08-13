@@ -40,6 +40,7 @@
         </div><!--center-->
     </header>
     <section class="banner-principal">
+        <div class="overlay"></div><!--overlay-->
         <div class="center">
             <form action="">
                 <h2>Lorem Ipsum Dolor</h2>

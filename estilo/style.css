@@ -38,7 +38,7 @@ header {
     background: #3d437A;
 }
 
-header .logo{
+header .logo {
     font-size: 23px;
     color: white;
     font-weight: 300;
@@ -63,7 +63,65 @@ nav.desktop li {
     display: inline-block;
 }
 
-nav.desktop a{
+nav.desktop a {
     color: white;
     text-decoration: none;
+}
+
+section.banner-principal{
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/bg-form.jpg');
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51,51,51,0.7);
+    z-index: 1;
+}
+
+section.banner-principal form {
+    width: 98%;
+    max-width: 600px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+section.banner-principal form h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background: white;
+    color: #333;
+    font-size: 22px;
+    padding-left: 10px;
+    border: 0;
+}
+
+section.banner-principal form input[type=submit]{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background: #80C59E;
+    color: white;
+    font-size: 22px;
+    padding-left: 10px;
+    cursor: pointer;
+    border: 0;
 }
