@@ -6,6 +6,7 @@
     - HTML - Desenvolvimento do front-end;
     - CSS - Estilização da página;
     - JavaScript - Aplicação de funcionalidades ao website
+    - PHP 
 
 - Etapas do Projeto
     - Marcação HTML da página;

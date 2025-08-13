@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -11,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!--Estilo Customizado-->
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/style.css">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/2d070ab700.js" crossorigin="anonymous"></script>
 </head>
@@ -22,10 +23,10 @@
             <div class="logo left"><a href="/">Logomarca</a></div><!--logo-->
             <nav class="desktop right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile right">
@@ -33,10 +34,10 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
             <div class="clear"></div>
@@ -78,7 +79,7 @@
                 </p>
             </div><!--w50-->
             <div class="w50 left">
-                <img class="right" src="images/foto.jpg" alt="User image">
+                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg" alt="User image">
             </div>
             <div class="clear"></div>
         </div><!--center-->
@@ -152,8 +153,8 @@
         </div>
     </footer>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 
 </body>
 
