@@ -47,9 +47,13 @@ header {
 
 header .logo {
     font-size: 23px;
-    color: white;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 
 .mobile {
@@ -73,6 +77,10 @@ nav.desktop li {
 nav.desktop a {
     color: white;
     text-decoration: none;
+}
+
+nav.desktop a:hover {
+    text-decoration: underline;
 }
 
 section.banner-principal {
@@ -156,26 +164,26 @@ section.especialidades {
     background: #e2e2e2;
 }
 
-section.especialidades h2.title{
+section.especialidades h2.title {
     font-size: 30px;
     font-weight: 300;
     color: #999;
     text-align: center;
 }
 
-.box-especialidade{
+.box-especialidade {
     margin: 40px 0;
     padding: 0 30px;
     text-align: center;
 }
 
-.box-especialidade h3{
-    color:#404580;
+.box-especialidade h3 {
+    color: #404580;
     font-size: 40px;
 }
 
-.box-especialidade h4{
-    color:#bababa;
+.box-especialidade h4 {
+    color: #bababa;
     font-size: 25px;
     font-weight: 300;
 }
@@ -191,11 +199,12 @@ section.extras {
     background: #404580;
 }
 
-.depoimentos-container, .servicos-container{
+.depoimentos-container,
+.servicos-container {
     padding: 0 40px;
 }
 
-section.extras .title{
+section.extras .title {
     color: white;
     font-weight: 300;
     font-size: 25px;
@@ -207,13 +216,13 @@ section.extras .title{
     border-bottom: 1px solid #5056a0;
 }
 
-p.depoimento-descricao{
+p.depoimento-descricao {
     font-size: 15px;
     color: white;
     font-weight: 300;
 }
 
-p.nome-autor{
+p.nome-autor {
     font-size: 15px;
     color: white;
     margin-top: 5px;
@@ -231,7 +240,7 @@ p.nome-autor{
     font-weight: 300;
 }
 
-footer{
+footer {
     background: #313462;
     padding: 30px 0;
 }
@@ -262,7 +271,7 @@ footer p {
         padding: 20px;
     }
 
-    .box-especialidade{
+    .box-especialidade {
         margin: 0;
         padding: 40px 20px;
     }
@@ -282,7 +291,7 @@ footer p {
         position: absolute;
         left: 0;
         top: 50px;
-        display: block;
+        display: none;
         text-align: center;
         width: 100%;
     }

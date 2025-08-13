@@ -5,10 +5,12 @@
 - Linguagens de programação estudadas:
     - HTML - Desenvolvimento do front-end;
     - CSS - Estilização da página;
+    - JavaScript - Aplicação de funcionalidades ao website
 
 - Etapas do Projeto
     - Marcação HTML da página;
     - Inclusão do Estilo da página;
+    - Inclusão do jQuery ao projeto;
 
 - Features aprendidas
     - Design responsivo;
