@@ -186,6 +186,63 @@ section.especialidades h2.title{
     margin-top: 10px;
 }
 
+section.extras {
+    padding: 30px 0;
+    background: #404580;
+}
+
+.depoimentos-container, .servicos-container{
+    padding: 0 40px;
+}
+
+section.extras .title{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.depoimento-single {
+    padding: 15px 0;
+    border-bottom: 1px solid #5056a0;
+}
+
+p.depoimento-descricao{
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+p.nome-autor{
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.servicos ul {
+    margin: 20px 0;
+}
+
+.servicos li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+footer{
+    background: #313462;
+    padding: 30px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
 
 @media screen and (max-width: 768px) {
     img {
@@ -211,7 +268,7 @@ section.especialidades h2.title{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     nav.desktop {
         display: none;
     }

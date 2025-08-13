@@ -106,34 +106,34 @@
     </section><!--especialidades-->
     <section class="extras">
         <div class="center">
-            <div class="w50 left">
-                <h2 class="title">Depoimentos</h2>
+            <div class="w50 left depoimentos-container">
+                <h2 class="title">Depoimentos dos nossos clientes</h2>
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
+                    <p class="depoimento-descricao">"Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
                         aliquip ea quis mollit. Adipisicing elit ipsum irure nulla magna. Exercitation proident cillum
                         anim tempor proident nostrud dolor. Qui adipisicing commodo cillum minim officia voluptate.
                         Aliquip ad ex magna est sint nisi laborum elit proident eu pariatur ipsum veniam. Nostrud magna
-                        aliquip sint aute magna eu culpa irure ad.</p>
+                        aliquip sint aute magna eu culpa irure ad."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
+                    <p class="depoimento-descricao">"Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
                         aliquip ea quis mollit. Adipisicing elit ipsum irure nulla magna. Exercitation proident cillum
                         anim tempor proident nostrud dolor. Qui adipisicing commodo cillum minim officia voluptate.
                         Aliquip ad ex magna est sint nisi laborum elit proident eu pariatur ipsum veniam. Nostrud magna
-                        aliquip sint aute magna eu culpa irure ad.</p>
+                        aliquip sint aute magna eu culpa irure ad."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
+                    <p class="depoimento-descricao">"Cupidatat et anim deserunt ea non laboris quis amet ad adipisicing
                         aliquip ea quis mollit. Adipisicing elit ipsum irure nulla magna. Exercitation proident cillum
                         anim tempor proident nostrud dolor. Qui adipisicing commodo cillum minim officia voluptate.
                         Aliquip ad ex magna est sint nisi laborum elit proident eu pariatur ipsum veniam. Nostrud magna
-                        aliquip sint aute magna eu culpa irure ad.</p>
+                        aliquip sint aute magna eu culpa irure ad."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
             </div>
-            <div class="w50 left">
+            <div class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
