@@ -17,5 +17,6 @@
     - Design responsivo;
     - Estilização de páginas Web;
     - Funcionalidades em JavaScript
+    - Criação de Slider com JS
 
 Créditos para os templates à Danki Code

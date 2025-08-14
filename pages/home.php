@@ -1,4 +1,7 @@
-<section class="banner-principal">
+<section class="banner-container">
+    <div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-003.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-002.jpg');" class="banner-single"></div><!--banner-single-->
+	<div style="background-image: url('<?php echo INCLUDE_PATH; ?>images/bg-001.jpg');" class="banner-single"></div><!--banner-single-->
         <div class="overlay"></div><!--overlay-->
         <div class="center">
             <form action="">
@@ -6,8 +9,9 @@
                 <input type="email" name="email" required>
                 <input type="submit" name="acao" value="Cadastrar!">
             </form>
+            <div class="bullets"></div>
         </div><!--center-->
-    </section><!--banner-principal-->
+    </section><!--banner-container-->
     <section class="descricao-autor">
         <div class="center">
             <div class="w50 left">
