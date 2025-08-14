@@ -6,7 +6,7 @@
     - HTML - Desenvolvimento do front-end;
     - CSS - Estilização da página;
     - JavaScript - Aplicação de funcionalidades ao website
-    - PHP 
+    - PHP
 
 - Etapas do Projeto
     - Marcação HTML da página;
@@ -16,5 +16,6 @@
 - Features aprendidas
     - Design responsivo;
     - Estilização de páginas Web;
+    - Funcionalidades em JavaScript
 
 Créditos para os templates à Danki Code

@@ -39,6 +39,10 @@ img {
     float: right;
 }
 
+input {
+    border: 0;
+}
+
 /*ESTILIZAÇÃO DO SITE*/
 header {
     padding: 10px 0;
@@ -252,6 +256,78 @@ footer p {
     font-size: 13px;
 }
 
+footer.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA DE ERRO */
+div.wraper-404{
+    transform: translate(-50%, -50%);
+    width: 100%;
+    left: 50%;
+    padding: 0 2%;
+    max-width: 1280px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+section.erro-404 h2{
+    text-align: center;
+    color: #444;
+    font-weight: 400;
+    border-top: 2px solid #444;
+    font-size: 28px;
+}
+
+section.erro-404 p {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    margin-top: 8px;
+}
+
+section.erro-404 p a{
+    color: #444;
+}
+/* ESTILIZAÇÃO DA PÁGINA DE CONTATO */
+.contato-container{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contato-container input[type=text]{
+    margin: 8px 0;
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #444;
+    max-width: 500px;
+    border: 1px solid #ccc;
+}
+
+.contato-container textarea {
+    margin: 8px 0;
+    width: 100%;
+    height: 120px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #444;
+    max-width: 500px;
+    border: 1px solid #ccc;
+}
+
+.contato-container input[type=submit]{
+    background: #00c59e;
+    width: 140px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+
+}
 
 @media screen and (max-width: 768px) {
     img {
