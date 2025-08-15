@@ -1,13 +1,22 @@
 <?php
 
     session_start();
-    
-    $autoload = function($class){
-        include('classes/'.$class.'.php');
+
+    $autoload = function ($class) {
+        if ($class == 'Email') {
+
+            require_once('classes/phpmailer/PHPMailerAutoload.php');
+        }
+        include('classes/' . $class . '.php');
     };
 
-    spl_autoload_register ($autoload);
-    
+    spl_autoload_register($autoload);
+
     define('INCLUDE_PATH', 'http://localhost/SiteDinamico/');
-    define('INCLUDE_PATH_PAINEL', INCLUDE_PATH.'painel/');
+    define('INCLUDE_PATH_PAINEL', INCLUDE_PATH . 'painel/');
+    //Conectar com banco de dados!
+    define('HOST', '127.0.0.1:3312:');
+    define('USER', 'root');
+    define('PASSWORD', 'Ation@8705');
+    define('DATABASE', 'sitedinamico');
 ?>

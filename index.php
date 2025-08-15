@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!--Estilo Customizado-->
-    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/style.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/style.css">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/2d070ab700.js" crossorigin="anonymous"></script>
 </head>

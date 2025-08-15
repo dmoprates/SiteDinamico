@@ -1,3 +1,12 @@
+:root{
+    --cor1:  #fe958f;
+    --cor2:  #f3d7c2 ;
+    --cor3:  #8bb6a3 ;
+    --cor4:  #17a7a8 ;
+    --cor5:  #224f83 ;
+    --cor6:  #122f51 ;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +55,18 @@ html, body {
     height: 40px;
     border: 0;
     margin-top: 8px;
-    background: #1de9b6;
+    background: var(--cor3);
     font-size: 14px;
     color: white;
+}
+
+/*BOX ERRO DO PAINEL*/
+.erro-box{
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background: var(--cor1);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
 }
