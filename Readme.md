@@ -14,6 +14,7 @@
     - Inclusão do jQuery ao projeto;
     - Inclusão de formulário de contato com formspree
     - Criação do Painel Administrativo
+    - Criar Login e Logout com PHP
 
 - Features aprendidas
     - Design responsivo;

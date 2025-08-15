@@ -1,10 +1,17 @@
-:root{
-    --cor1:  #fe958f;
-    --cor2:  #f3d7c2 ;
-    --cor3:  #8bb6a3 ;
-    --cor4:  #17a7a8 ;
-    --cor5:  #224f83 ;
-    --cor6:  #122f51 ;
+:root {
+    --cor1: #fe958f;
+    --cor2: #f3d7c2;
+    --cor3: #8bb6a3;
+    --cor4: #17a7a8;
+    --cor5: #224f83;
+    --cor6: #122f51;
+    --cor_painel_1: #f05c54;
+    --cor_painel_2: #a17457;
+    --cor_painel_3: #5c735e;
+    --cor_painel_4: #3d615b;
+    --cor_painel_5: #5b5a5f;
+    --cor_painel_6: #434247;
+    
 }
 
 * {
@@ -14,10 +21,24 @@
     font-family: "Raleway", sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     background: rgb(225, 225, 225);
 }
+
+/* === BOX ERRO DO PAINEL === */
+.erro-box {
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background: var(--cor1);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* === PÁGINA DE LOGIN === */
 
 .box-login {
     box-shadow: 5px 5px 2px #bbb9b9;
@@ -50,7 +71,7 @@ html, body {
     margin-top: 8px;
 }
 
-.box-login input[type=submit]{
+.box-login input[type=submit] {
     width: 100%;
     height: 40px;
     border: 0;
@@ -60,13 +81,41 @@ html, body {
     color: white;
 }
 
-/*BOX ERRO DO PAINEL*/
-.erro-box{
-    width: 100%;
-    padding: 8px 2%;
-    text-align: center;
-    background: var(--cor1);
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
+/* === FIM PÁGINA DE LOGIN === */
+
+/* === PÁGINA MAIN === */
+
+.clear {
+    clear: both;
 }
+
+.center {
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+div.menu {
+    overflow-y: auto;
+    height: 100%;
+    background: var(--cor_painel_4);
+    float: left;
+    width: 300px;
+}
+
+header {
+    float: left;
+    padding: 10px 0;
+    background: var(--cor_painel_6);
+    width: calc(100% - 300px);
+}
+
+.logout {
+    float: right;
+}
+
+.logout a {
+    color: white;
+    font-size: 17px;
+}
+
+/* === FIM PÁGINA MAIN === */
