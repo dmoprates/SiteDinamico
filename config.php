@@ -19,4 +19,10 @@
     define('USER', 'root');
     define('PASSWORD', 'Ation@8705');
     define('DATABASE', 'sitedinamico');
+
+    //funções
+    function pegaCargo($cargo){
+        $arr= ['1' => 'Administrador', '2' => 'Sub-Administrador', '3' => 'Usuário'];
+        return $arr[$cargo];
+    }
 ?>

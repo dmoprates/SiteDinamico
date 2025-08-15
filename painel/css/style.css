@@ -94,19 +94,18 @@ body {
     margin: 0 auto;
 }
 
-div.menu {
-    overflow-y: auto;
-    height: 100%;
-    background: var(--cor_painel_4);
-    float: left;
-    width: 300px;
-}
-
 header {
     float: left;
     padding: 10px 0;
     background: var(--cor_painel_6);
     width: calc(100% - 300px);
+}
+
+.menu-btn{
+    float: left;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
 }
 
 .logout {
@@ -116,6 +115,51 @@ header {
 .logout a {
     color: white;
     font-size: 17px;
+    text-decoration: none;
 }
 
+.logout a > span {
+    font-size: 17px; 
+}
+
+div.menu {
+    overflow-y: auto;
+    height: 100%;
+    background: var(--cor_painel_4);
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+div.box-usuario{
+    text-align: center;
+}
+.avatar-usuario {
+    text-align: left;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--cor_painel_6);
+}
+
+.avatar-usuario i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: var(--cor_painel_6);
+}
+
+.nome-usuario {
+    margin-top: 15px;    
+}
+
+.nome-usuario p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
 /* === FIM PÁGINA MAIN === */
