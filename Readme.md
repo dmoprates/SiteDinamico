@@ -12,11 +12,15 @@
     - Marcação HTML da página;
     - Inclusão do Estilo da página;
     - Inclusão do jQuery ao projeto;
+    - Inclusão de formulário de contato com formspree
+    - Criação do Painel Administrativo
 
 - Features aprendidas
     - Design responsivo;
     - Estilização de páginas Web;
     - Funcionalidades em JavaScript
     - Criação de Slider com JS
+    - Utilização de ferramenta em JS para envio de formulário de contato
+    - 
 
 Créditos para os templates à Danki Code
