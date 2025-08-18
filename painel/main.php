@@ -66,6 +66,7 @@ if (isset($_GET['logout'])) {
                 <i class="fa-solid fa-bars"></i>
             </div><!--menu-btn-->
             <div class="logout">
+                <a href="<?php echo INCLUDE_PATH_PAINEL ?>"><span>Página Inicial</span> <i class="fa-solid fa-house"></i></a>
                 <a href="<?php echo INCLUDE_PATH_PAINEL ?>?logout"><span>Sair </span><i
                         class="fa-solid fa-right-from-bracket"></i></a>
             </div><!--logout-->
@@ -73,31 +74,7 @@ if (isset($_GET['logout'])) {
         </div><!--center-->
     </header>
     <div class="content">
-        <div class="box-content left w100">
-            <h2><i class="fa-solid fa-house-user"></i> Painel de Controle - <?php echo NOME_EMPRESA ?> </h2>
-            <div class="box-metricas">
-                <div class="box-metrica-single">
-                    <div class="box-metrica-wraper">
-                        <h2>Usuários Online</h2>
-                        <p>10</p>
-                    </div><!--box-metrica-wraper-->
-                </div><!--box-metrica-single-->
-                <div class="box-metrica-single">
-                    <div class="box-metrica-wraper">
-                        <h2>Total de Visitas</h2>
-                        <p>100</p>
-                    </div><!--box-metrica-wraper-->
-                </div><!--box-metrica-single-->
-                <div class="box-metrica-single">
-                    <div class="box-metrica-wraper">
-                        <h2>Visitas Hoje</h2>
-                        <p>3</p>
-                    </div><!--box-metrica-wraper-->
-                </div><!--box-metrica-single-->
-                <div class="clear"></div>
-            </div><!--box-metricas-->
-        </div><!--box-content-->
-        <div class="clear"></div>
+        <?php Painel::carregarPagina();?>        
     </div><!--content-->
 
     <script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>

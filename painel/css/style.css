@@ -1,6 +1,6 @@
 :root {
     --cor1: #fe958f;
-    --cor2: #f3d7c2;
+    --cor2: #f7c078;
     --cor3: #8bb6a3;
     --cor4: #17a7a8;
     --cor5: #224f83;
@@ -45,7 +45,7 @@ body {
 /* === PÁGINA DE LOGIN === */
 
 .box-login {
-    box-shadow: 5px 5px 2px rgb(200,200,200);
+    box-shadow: 5px 5px 2px rgb(200, 200, 200);
     max-width: 600px;
     width: 95%;
     padding: 60px 2%;
@@ -262,6 +262,7 @@ div.box-usuario {
     font-weight: 300;
     font-size: 23px;
 }
+
 /* MÉTRICAS */
 .box-metricas {
     margin-top: 16px;
@@ -299,9 +300,33 @@ div.box-usuario {
     font-size: 26px;
 }
 
+/* TABELA RESPONSIVA */
+.table-responsive {
+    margin:20px auto;
+	font-weight: 300;
+}
+
+.table-responsive .row:nth-of-type(1){
+    font-weight: normal;
+	background: var(--cor_painel_3);
+	padding: 10px;
+	color: white;
+}
+
+.table-responsive .row{
+    color: #777;
+	padding: 8px;
+	border-bottom: 1px solid #ccc;
+}
+
+.col {
+    float: left;
+	width: 50%;
+}
+
 /* RESPONSIVO */
 @media screen and (max-width: 1024px) {
-    .box-metrica-single{
+    .box-metrica-single {
         width: 100%;
     }
 }
