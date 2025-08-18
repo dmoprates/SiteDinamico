@@ -25,4 +25,8 @@
         $arr= ['1' => 'Administrador', '2' => 'Sub-Administrador', '3' => 'Usuário'];
         return $arr[$cargo];
     }
+
+    //Constantes para o painel de controle
+	define('NOME_EMPRESA','Lorem Ipsum');
+    
 ?>
