@@ -1,7 +1,7 @@
 <?php
-	if(isset($_GET['logout'])){
-		Painel::logout();
-	}
+if (isset($_GET['logout'])) {
+    Painel::logout();
+}
 ?>
 
 <!DOCTYPE html>
@@ -23,25 +23,27 @@
 
 <body>
     <div class="menu">
-        <div class="box-usuario">
-            <?php 
-                if($_SESSION['img'] == ''){
-            ?>
-            <div class="avatar-usuario">
-                <i class="fa-solid fa-user"></i>
-            </div><!--avatar-usuario-->
-            <?php 
-                }else {
-            ?>
-            <div class="imagem-usuario">
-                <img src="<?php echo INCLUDE_PATH_PAINEL ?>uploads/<?php echo $_SESSION['img']; ?>" alt="">
-            </div><!--avatar-usuario-->
-            <?php } ?>
-            <div class="nome-usuario">
-                <p><?php echo $_SESSION['nome']; ?></p>
-                <p><?php echo pegaCargo($_SESSION['cargo']); ?></p>
-            </div><!--nome-usuario-->
-        </div><!--box-usuario-->
+        <div class="menu-wraper">
+            <div class="box-usuario">
+                <?php
+                if ($_SESSION['img'] == '') {
+                    ?>
+                    <div class="avatar-usuario">
+                        <i class="fa-solid fa-user"></i>
+                    </div><!--avatar-usuario-->
+                <?php
+                } else {
+                    ?>
+                    <div class="imagem-usuario">
+                        <img src="<?php echo INCLUDE_PATH_PAINEL ?>uploads/<?php echo $_SESSION['img']; ?>" alt="">
+                    </div><!--avatar-usuario-->
+                <?php } ?>
+                <div class="nome-usuario">
+                    <p><?php echo $_SESSION['nome']; ?></p>
+                    <p><?php echo pegaCargo($_SESSION['cargo']); ?></p>
+                </div><!--nome-usuario-->
+            </div><!--box-usuario-->
+        </div><!--menu-wraper-->
     </div><!--menu-->
     <header>
         <div class="center">
@@ -49,11 +51,21 @@
                 <i class="fa-solid fa-bars"></i>
             </div><!--menu-btn-->
             <div class="logout">
-                <a href="<?php echo INCLUDE_PATH_PAINEL ?>?logout"><span>Sair </span><i class="fa-solid fa-right-from-bracket"></i></a>
+                <a href="<?php echo INCLUDE_PATH_PAINEL ?>?logout"><span>Sair </span><i
+                        class="fa-solid fa-right-from-bracket"></i></a>
             </div><!--logout-->
             <div class="clear"></div>
         </div><!--center-->
     </header>
+    <div class="content">
+        <div class="box-content left w100">
+
+        </div><!--box-content-->
+        <div class="clear"></div>
+    </div><!--content-->
+
+    <script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/main.js"></script>
 </body>
 
 </html>

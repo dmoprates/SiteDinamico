@@ -11,7 +11,7 @@
     --cor_painel_4: #3d615b;
     --cor_painel_5: #5b5a5f;
     --cor_painel_6: #434247;
-    
+
 }
 
 * {
@@ -25,6 +25,10 @@ html,
 body {
     height: 100%;
     background: rgb(225, 225, 225);
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* === BOX ERRO DO PAINEL === */
@@ -95,13 +99,14 @@ body {
 }
 
 header {
-    float: left;
+    position: relative;
+    left: 300px;
     padding: 10px 0;
     background: var(--cor_painel_6);
     width: calc(100% - 300px);
 }
 
-.menu-btn{
+.menu-btn {
     float: left;
     cursor: pointer;
     font-size: 17px;
@@ -118,22 +123,31 @@ header {
     text-decoration: none;
 }
 
-.logout a > span {
-    font-size: 17px; 
+.logout a>span {
+    font-size: 17px;
+}
+
+.menu-wraper {
+    width: 300px;
 }
 
 div.menu {
+    overflow-x: hidden;
     overflow-y: auto;
     height: 100%;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
     background: var(--cor_painel_4);
     float: left;
     width: 300px;
-    padding: 10px;
 }
 
-div.box-usuario{
+div.box-usuario {
     text-align: center;
 }
+
 .avatar-usuario {
     text-align: left;
     display: inline-block;
@@ -143,7 +157,7 @@ div.box-usuario{
     border: 3px solid var(--cor_painel_6);
 }
 
-.avatar-usuario i{
+.avatar-usuario i {
     position: relative;
     top: 50%;
     left: 50%;
@@ -154,7 +168,7 @@ div.box-usuario{
 }
 
 .nome-usuario {
-    margin-top: 15px;    
+    margin-top: 15px;
 }
 
 .nome-usuario p {
@@ -162,4 +176,61 @@ div.box-usuario{
     font-size: 14px;
     font-weight: 300;
 }
+
 /* === FIM PÁGINA MAIN === */
+
+/* CONTEÚDO PRINCIPAL DO PAINEL*/
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 49%;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.content {
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+.box-content {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* RESPONSIVO */
+@media screen and (max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        left: 0;
+    }
+
+    header {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu-wraper {
+        width: 200px;
+    }
+}
