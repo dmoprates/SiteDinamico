@@ -15,13 +15,14 @@
     - Inclusão de formulário de contato com formspree
     - Criação do Painel Administrativo
     - Criar Login e Logout com PHP
+    - Visualização gerencial
 
 - Features aprendidas
     - Design responsivo;
     - Estilização de páginas Web;
-    - Funcionalidades em JavaScript
-    - Criação de Slider com JS
-    - Utilização de ferramenta em JS para envio de formulário de contato
-    - 
+    - Funcionalidades em JavaScript;
+    - Criação de Slider com JS;
+    - Utilização de ferramenta em JS para envio de formulário de contato;
+    - Integração via PHP com banco de dados;
 
-Créditos para os templates à Danki Code
+Créditos para os templates à Danki Code.

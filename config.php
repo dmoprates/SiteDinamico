@@ -16,6 +16,7 @@ spl_autoload_register($autoload);
 
 define('INCLUDE_PATH', 'http://localhost/SiteDinamico/');
 define('INCLUDE_PATH_PAINEL', INCLUDE_PATH . 'painel/');
+define('BASE_DIR_PAINEL', __DIR__.'/painel');
 //Conectar com banco de dados!
 define('HOST', '127.0.0.1:3312:');
 define('USER', 'root');

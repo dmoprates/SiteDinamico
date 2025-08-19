@@ -324,6 +324,70 @@ div.box-usuario {
 	width: 50%;
 }
 
+/* === PÁGINA EDITAR USUÁRIO === */
+
+.box-content form {
+    margin: 30px 0;
+}
+
+.box-content form label {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--cor6);
+    display: block;
+}
+
+.box-content .form-group {
+    margin: 15px 0;
+}
+
+.box-content input[type=text],
+.box-content input[type=password] {
+    font-size: 15px;
+    color: var(--cor_painel_6);
+    width: 100%;
+    height: 40px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+}
+
+.box-content form input[type=file] {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+     color: var(--cor_painel_6);
+}
+
+.box-content form input[type=submit] {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    background: var(--cor4);
+    color: white;
+    border: 0;
+}
+
+/* Box de alerta*/
+.box-alert {
+    width: 100%;
+    padding: 8px 0;
+}
+
+.sucesso {
+    text-align: center;
+    color: white;
+    background: var(--cor3);
+}
+
+.erro {
+    text-align: center;
+    color: white;
+    background: var(--cor1);
+}
+
 /* RESPONSIVO */
 @media screen and (max-width: 1024px) {
     .box-metrica-single {
