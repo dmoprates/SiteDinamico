@@ -388,6 +388,14 @@ div.box-usuario {
     background: var(--cor1);
 }
 
+.menu-active {
+    background: var(--cor_painel_3);
+}
+
+.menu-active::before{
+    content: '- ';
+}
+
 /* RESPONSIVO */
 @media screen and (max-width: 1024px) {
     .box-metrica-single {

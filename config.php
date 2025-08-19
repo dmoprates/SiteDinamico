@@ -23,13 +23,34 @@ define('USER', 'root');
 define('PASSWORD', 'Ation@8705');
 define('DATABASE', 'sitedinamico');
 
-//funções
+//funções painel
 function pegaCargo($cargo)
 {
     $arr = ['1' => 'Administrador', '2' => 'Sub-Administrador', '3' => 'Usuário'];
     return $arr[$cargo];
 }
+function selecionadoMenu($par){
+    $url = explode('/', @$_GET['url'])[0];
+    if($url == $par){
+        echo 'class="menu-active"';
+    }
+}
 
+function verificaPermissaoMenu($permissao){
+    if($_SESSION['cargo'] >= $permissao){
+        return;
+    }else{
+        echo 'style="display:none"';
+    }
+}
+function verificaPermissaoPagina($permissao){
+    if($_SESSION['cargo'] >= $permissao){
+        return;
+    }else{
+        include('painel/pages/permissao-negada.php');
+        die();
+    }
+}
 //Constantes para o painel de controle
 define('NOME_EMPRESA', 'Lorem Ipsum');
 
