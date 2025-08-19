@@ -86,6 +86,18 @@ body {
     border: 0;
 }
 
+form .form-group-login:nth-of-type(2){
+    position: relative;
+    top: 10px
+}
+
+.form-group-login label{
+    font-size: 13px;
+    font-weight: 300;
+    padding-right: 6px;
+    color: black;
+}
+
 /* === FIM PÁGINA DE LOGIN === */
 
 /* === PÁGINA MAIN === */
