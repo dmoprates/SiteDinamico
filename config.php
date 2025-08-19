@@ -16,37 +16,37 @@ spl_autoload_register($autoload);
 
 define('INCLUDE_PATH', 'http://localhost/SiteDinamico/');
 define('INCLUDE_PATH_PAINEL', INCLUDE_PATH . 'painel/');
-define('BASE_DIR_PAINEL', __DIR__.'/painel');
+define('BASE_DIR_PAINEL', __DIR__ . '/painel');
 //Conectar com banco de dados!
 define('HOST', '127.0.0.1:3312:');
 define('USER', 'root');
 define('PASSWORD', 'Ation@8705');
 define('DATABASE', 'sitedinamico');
-
 //funções painel
-function pegaCargo($cargo)
+function pegaCargo($indice)
 {
-    $arr = ['1' => 'Administrador', '2' => 'Sub-Administrador', '3' => 'Usuário'];
-    return $arr[$cargo];
+    return Painel::$cargos[$indice];
 }
-function selecionadoMenu($par){
+function selecionadoMenu($par)
+{
     $url = explode('/', @$_GET['url'])[0];
-    if($url == $par){
+    if ($url == $par) {
         echo 'class="menu-active"';
     }
 }
-
-function verificaPermissaoMenu($permissao){
-    if($_SESSION['cargo'] >= $permissao){
+function verificaPermissaoMenu($permissao)
+{
+    if ($_SESSION['cargo'] >= $permissao) {
         return;
-    }else{
+    } else {
         echo 'style="display:none"';
     }
 }
-function verificaPermissaoPagina($permissao){
-    if($_SESSION['cargo'] >= $permissao){
+function verificaPermissaoPagina($permissao)
+{
+    if ($_SESSION['cargo'] >= $permissao) {
         return;
-    }else{
+    } else {
         include('painel/pages/permissao-negada.php');
         die();
     }

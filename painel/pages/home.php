@@ -59,3 +59,34 @@
         <?php } ?>
     </div>
 </div><!--box-content-->
+
+<div class="box-content w100">
+    <h2><i class="fa-solid fa-users"></i> Usuários do Painel</h2>
+    <div class="table-responsive">
+        <div class="row">
+            <div class="col">
+                <span>Nome</span>
+            </div>
+            <div class="col">
+                <span>Cargo</span>
+            </div>
+            <div class="clear"></div>
+        </div><!--row-->
+        <?php 
+            $usuariosPainel = MySql::conectar()->prepare("SELECT * FROM `admin.usuarios`");
+            $usuariosPainel->execute();
+            $usuariosPainel = $usuariosPainel->fetchAll();
+            foreach($usuariosPainel as $key => $value){ 
+        ?>
+        <div class="row">
+            <div class="col">
+                <span><?php echo $value['user'] ?></span>
+            </div>
+            <div class="col">
+                <span><?php echo pegaCargo($value['cargo']) ?></span>
+            </div>
+            <div class="clear"></div>
+        </div><!--row-->
+        <?php } ?>
+    </div>
+</div><!--box-content-->
