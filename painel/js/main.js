@@ -38,4 +38,5 @@ $(function(){
             $('.menu').css('width', '250px').css('padding', '10px 0');
         }
     })
+    $('[formato=data]').mask('99/99/9999');
 })

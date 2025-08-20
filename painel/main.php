@@ -78,6 +78,7 @@ if (isset($_GET['logout'])) {
     </div><!--content-->
 
     <script src="<?php echo INCLUDE_PATH ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/jquery.mask.js"></script>
     <script src="<?php echo INCLUDE_PATH_PAINEL ?>js/main.js"></script>
 </body>
 
