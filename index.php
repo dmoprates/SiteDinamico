@@ -1,13 +1,18 @@
 <?php include('config.php'); ?>
 <?php Site::updateUsuarioOnline(); ?>
 <?php Site::contador(); ?>
+<?php
+	$infoSite = MySql::conectar()->prepare("SELECT * FROM `site.config`");
+	$infoSite->execute();
+	$infoSite = $infoSite->fetch();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Dinâmico</title>
+    <title><?php echo $infoSite['titulo']; ?></title>
     <!--CSS Fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
