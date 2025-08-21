@@ -53,5 +53,9 @@ function verificaPermissaoPagina($permissao)
 }
 //Constantes para o painel de controle
 define('NOME_EMPRESA', 'Lorem Ipsum');
-
+function recoverPost($post){
+		if(isset($_POST[$post])){
+			echo $_POST[$post];
+		}
+	}
 ?>
