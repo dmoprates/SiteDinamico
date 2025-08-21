@@ -1,5 +1,5 @@
 <div class="box-content">
-	<h2><i class="fa fa-pencil"></i> Adicionar Serviço</h2>
+	<h2><i class="fa-solid fa-briefcase"></i> Adicionar Serviço</h2>
 	<form method="post" enctype="multipart/form-data">
 		<?php
 		if (isset($_POST['acao'])) {

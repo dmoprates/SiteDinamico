@@ -15,7 +15,7 @@ $servicos = Painel::selectAll('site.servicos', ($paginaAtual - 1) * $porPagina, 
 ?>
 
 <div class="box-content">
-    <h2> <i class="fa-solid fa-message"></i> Serviços Cadastrados</h2>
+    <h2> <i class="fa-solid fa-briefcase"></i> Serviços Cadastrados</h2>
 
     <div class="wraper-table">
         <table>

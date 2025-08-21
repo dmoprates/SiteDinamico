@@ -1,5 +1,5 @@
 <div class="box-content">
-    <h2> <i class="fa-solid fa-pen-to-square"></i> Adicionar Depoimentos</h2>
+    <h2> <i class="fa-solid fa-comment"></i> Adicionar Depoimentos</h2>
     <form method="post" enctype="multipart/form-data">
         <?php
         if (isset($_POST['acao'])) {
