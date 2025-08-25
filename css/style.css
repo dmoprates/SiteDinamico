@@ -546,6 +546,45 @@ section.container-portal {
 .paginator a.active-page{
     background: rgb(220, 220, 220);;
 }
+/*NOTICIA SINGLE*/
+
+section.noticia-single{
+    padding: 40px 0;
+    color: #646464;
+}
+
+section.noticia-single header {
+    background-color: transparent;
+}
+
+section.noticia-single h1 {
+    font-size: 30px;
+    border-bottom: 2px solid #646464;
+}
+
+section.noticia-single article {
+    margin-top: 15px;
+}
+
+section.noticia-single h2,
+section.noticia-single h3 {
+    margin: 10px 0;
+}
+
+section.noticia-single p {
+    margin: 10px 0;
+}
+
+section.noticia-single ul{
+    margin: 10px 0;
+    list-style-position: inside;
+}
+
+section.noticias-single img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
 @media screen and (max-width: 768px) {
     img {

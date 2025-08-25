@@ -1,3 +1,9 @@
+<?php
+	$url = explode('/',$_GET['url']);
+	if(!isset($url[2]))
+	{
+?>
+
 <section class="header-noticias">
     <div class="center">
         <h2><i class="fa-solid fa-newspaper"></i></h2>
@@ -48,7 +54,7 @@
                     magna nisi. Aute enim ex Lorem incididunt cupidatat. Aliqua deserunt aliqua enim pariatur do culpa
                     mollit ex sint. Cupidatat in laborum velit enim aliqua cillum magna mollit proident eu velit
                     eiusmod.</p>
-                <a href="<?php echo INCLUDE_PATH; ?>esportes/nome-do-post">Leia mais</a>
+                <a href="<?php echo INCLUDE_PATH; ?>noticias/esportes/nome-do-post">Leia mais</a>
             </div><!--box-single-conteudo-->
             <?php }?>
             <div class="paginator">
@@ -60,3 +66,6 @@
         <div class="clear"></div>
     </div><!--center-->
 </section><!--container-portal-->
+<?php } else{
+    include('noticia-single.php'); } 
+?>
